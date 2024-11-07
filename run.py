@@ -288,7 +288,7 @@ def get_move(state,player):
 read_state=read_state_from_file
     
 # In[58]:
-def make_move(move):
+def make_move(state,player,move):
     start,end=move
     row,col=state.row(start),state.col(start)
 
